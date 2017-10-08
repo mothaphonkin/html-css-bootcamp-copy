@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+img {
+    border: 10px dotted tomato;
+}
+
+.dogOne {
+    border: 10px groove tomato;
+}
+
+.dogTwo {
+    border: 10px solid tomato;
+}
+
+.dogThree {
+    border: 10px double tomato;
+}
