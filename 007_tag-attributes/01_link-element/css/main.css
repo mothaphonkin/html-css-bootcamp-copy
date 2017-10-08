@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    width:calc(100% - 200px);
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    background-color: steelblue;
+    padding: 1%;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+p {
+    color: #fff;
+    font-weight: 100;
+}
