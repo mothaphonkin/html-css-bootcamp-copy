@@ -1,0 +1,7 @@
+/*
+    dodaje granicu svim slikama
+*/
+
+img {
+    border:10px groove orange;
+}
