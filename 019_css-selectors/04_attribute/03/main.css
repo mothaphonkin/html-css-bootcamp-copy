@@ -1,0 +1,29 @@
+/*Attribute selector*/
+
+[alt="Firefox Icon"] {
+    border: 10px groove orangered;
+}
+
+[contenteditable] {
+    color: steelblue;
+    border: 1px dashed #000;
+    padding: .5%;
+}
+
+[src] {
+    border: 10px dashed #ff4500;
+}
+
+[href] {
+    border: 2px dashed #008000;
+}
+
+[target="_blank"] {
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: .5%;
+}
+
+

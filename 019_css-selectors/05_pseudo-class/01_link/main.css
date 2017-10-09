@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: 10px solid #ADFF2F;
+    text-align: center;
+}
+
+a:link {
+    color: #ADFF2F;
+}
+
+a:visited {
+    color: #1674a5;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: #f5e106;
+}

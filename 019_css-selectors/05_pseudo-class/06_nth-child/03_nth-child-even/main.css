@@ -1,0 +1,9 @@
+body {
+    font-size: 20px;
+}
+
+li:nth-child(even) {
+    color: red;
+}
+
+

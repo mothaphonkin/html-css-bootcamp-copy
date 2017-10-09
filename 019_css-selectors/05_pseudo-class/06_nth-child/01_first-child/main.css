@@ -1,0 +1,12 @@
+body {
+    font-size: 20px;
+}
+
+li:first-child {
+    color: tomato;
+}
+
+ul:first-child {
+    background: darksalmon;
+}
+

@@ -1,0 +1,9 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1.8em;
+}
+
+div+p {
+    color: tomato;
+}
