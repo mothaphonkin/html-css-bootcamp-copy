@@ -1,0 +1,9 @@
+
+.someDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    border: 20px groove;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 7px;
+}

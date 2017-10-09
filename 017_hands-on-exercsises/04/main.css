@@ -1,0 +1,10 @@
+div {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed #ff0000;
+    margin: 20px auto;
+}
+
+div:last-of-type {
+    box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+
+.someDiv {
+    width: 200px;
+    height: 200px;
+    background: url('img/download.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 20px groove;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 7px;
+}

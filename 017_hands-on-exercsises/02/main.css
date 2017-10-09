@@ -1,0 +1,12 @@
+body {
+    background: salmon;
+}
+
+.someDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    border: 1px solid;
+    border-color: rgba(0,0, 0, .2);
+    border-radius: 7px;
+}
