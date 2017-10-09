@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: steelblue;
+}
+
+.wrapper {
+    width: calc(100% - 500px);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 2%;
+    border: 5px solid #000;
+    background: #55e555;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 10px ridge orange;
+}
+
+h1,
+h2 {
+    text-transform: capitalize;
+}
+
+h1 {
+    color: #4682b4;
+}
+
+p {
+    margin: 2% 0;
+}
+
+h2 {
+    color: #ff0000;
+}
