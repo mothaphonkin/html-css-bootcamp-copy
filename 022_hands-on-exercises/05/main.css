@@ -1,0 +1,15 @@
+body {
+    font-size: 20px;
+}
+
+p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p::first-line {
+    color: #ff6347;
+}
+
+
+
