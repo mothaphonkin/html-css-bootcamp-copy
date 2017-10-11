@@ -1,0 +1,25 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
+}
+
+.trista {
+    font-weight: 300;
+}
+
+.cetirsto {
+    font-weight: 400;
+    text-indent: .5%;
+}
+
+.sedamsto {
+    font-weight: 700;
+    text-indent: 1%;
+}

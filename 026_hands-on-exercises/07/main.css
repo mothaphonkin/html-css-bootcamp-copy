@@ -1,0 +1,33 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1%;
+    text-shadow: 1px 0 5px #ff0000;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+a:hover {
+    text-decoration: underline;
+}
