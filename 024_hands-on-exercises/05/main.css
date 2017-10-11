@@ -1,0 +1,12 @@
+/*specificity 10*/
+
+.emphisize {
+    color: #4682b4;
+}
+
+/*specificity 10*/
+/* last style apply */
+
+[class] {
+    color: #ff0000;
+}
