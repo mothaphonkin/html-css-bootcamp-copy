@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: .5% 0;
+}
+
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    display: inline-block;
+    font-variant: small-caps;
+    font-style: italic;
+    /*border: 4px double;*/
+    /*border-color: rgba(255, 255, 255, .5);*/
+    /*border-radius: 7px;*/
+    margin-top: 1%;
+    padding: 1%;
+    background: #ff6347;
+    line-height: 1;
+}
+
+p,
+span {
+    border: 1px dashed #000;
+}
