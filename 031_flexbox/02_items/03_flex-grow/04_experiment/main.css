@@ -1,0 +1,18 @@
+/*flex container*/
+body {
+    display: flex;
+}
+/*flex items */
+div {
+    border: 2px solid #000;
+    height: 100px;
+    flex-grow: 1;
+}
+div:first-child,
+ div:nth-child(3){
+    flex-grow: 1;
+}
+div:nth-child(2){
+    flex-grow: 2;
+}
+

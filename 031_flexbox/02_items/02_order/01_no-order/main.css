@@ -1,0 +1,18 @@
+/*flex container*/
+body {
+    display: flex;
+    flex-flow: column wrap;
+    border: 5px solid #ff0000;
+    height: 1000px;
+    padding: 1% 0 0 1%;
+}
+
+/*flex items*/
+div {
+    width: 100px;
+    height: 50px;
+    background: #a9a9a9;
+    border: 1px solid #ff0000;
+    text-align: center;
+    margin: .5%;
+}

@@ -1,0 +1,19 @@
+body {
+    height: 500px;
+    display: flex;
+    border: 5px solid #ff0000;
+    padding: 1%;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: .5%;
+    background: #a9a9a9;
+    border: 1px solid #ff0000;
+    text-align: center;
+}
+
+div:nth-child(3) {
+    align-self: center;
+}

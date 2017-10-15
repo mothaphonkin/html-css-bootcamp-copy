@@ -1,0 +1,21 @@
+/*flex container*/
+
+body {
+    border: 5px solid #ff0000;
+    height: 650px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-content: flex-start;
+}
+
+/*flex items*/
+
+div {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    background: #4682b4;
+    border: 1px solid #000;
+    margin: .2%;
+    text-align: center;
+}

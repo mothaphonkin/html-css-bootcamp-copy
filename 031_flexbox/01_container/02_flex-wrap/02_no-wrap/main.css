@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: #ffff00;
+    border: 2px solid #0000ff;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

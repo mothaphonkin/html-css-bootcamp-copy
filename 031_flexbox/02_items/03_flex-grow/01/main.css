@@ -1,0 +1,20 @@
+/*flex container*/
+body {
+    display: flex;
+}
+/*flex items */
+div {
+    border: 2px solid #000;
+    height: 100px;
+}
+div:first-child {
+    flex-grow: 1;
+}
+
+div:nth-child(2) {
+    flex-grow: 2;
+}
+
+div:last-child {
+    flex-grow: 1;
+}

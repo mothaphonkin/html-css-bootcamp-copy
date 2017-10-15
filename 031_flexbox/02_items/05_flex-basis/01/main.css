@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 100px;
+    flex-basis: 400px;
+    border: 1px solid #000;
+}
+
+.flex1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-grow: 8;
+    flex-shrink: 8;
+}

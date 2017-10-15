@@ -1,0 +1,19 @@
+/*flex container*/
+body {
+    display: flex;
+}
+
+div {
+    height: 100px;
+    width: 400px;
+    border: 2px solid #000;
+}
+
+div:first-child,
+div:last-child {
+    flex-shrink: 1;
+}
+
+div:first-child + div {
+    flex-shrink: 2;
+}

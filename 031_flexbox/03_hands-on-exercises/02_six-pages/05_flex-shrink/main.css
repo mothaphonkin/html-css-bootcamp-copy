@@ -1,0 +1,25 @@
+/*flex container*/
+
+body {
+    border: 5px solid #ff0000;
+    height: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*flex items*/
+
+div {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 1;
+    background: #4682b4;
+    border: 1px solid #000;
+    margin: .2%;
+    text-align: center;
+}
+
+div:last-child {
+    flex-shrink: 5;
+}
+

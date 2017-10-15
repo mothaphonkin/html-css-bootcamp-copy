@@ -1,0 +1,22 @@
+div {
+    width: 50px;
+    height: 50px;
+    background: #ffff00;
+    border: 2px solid #0000ff;
+}
+
+header {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    border: 1px solid #ff0000;
+    justify-content: space-between;
+    /*transiton-propery: background;*/
+    /*transition-duration: .25s;*/
+    /*transition-timing-function: linear;*/
+}
+
+header:hover {
+    /*background: #ddd;*/
+    /*padding: 5%;*/
+}
