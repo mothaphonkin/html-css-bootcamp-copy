@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav {
+    width: 15%;
+}
+
+article {
+    width: 85%;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 5%;
+}
