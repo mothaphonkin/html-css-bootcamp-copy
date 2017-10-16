@@ -1,0 +1,25 @@
+body {
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.class4,
+.class5 {
+    display: none;
+}
+
+.class6,
+.class7 {
+    width: 100%;
+}
+
+.class6 {
+    order: 4;
+}
+
+.class7 {
+    order: 3;
+}

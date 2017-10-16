@@ -1,0 +1,21 @@
+body {
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class4,
+.class5 {
+    display: none;
+}
+
+.class6,
+.class7 {
+    width: 100%;
+}

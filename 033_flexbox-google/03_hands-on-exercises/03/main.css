@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+    border: 5px solid #000;
+}
+
+.class1,
+.class2,
+.class3,
+.class4,
+.class5,
+.class6,
+.class7 {
+    width: 100%;
+    min-height: 150px;
+    order: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class1 {
+    background: #ff0000;
+}
+
+.class2 {
+    background: #4c2b03;
+}
+
+.class3 {
+    background: #9dbb88;
+}
+
+.class4 {
+    background: #651456;
+}
+
+.class5 {
+    background: #4EBBE4;
+}
+
+.class6 {
+    background: #00C957;
+}
+
+.class7 {
+    background: #5b5b5b;
+}
+
+

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    width: 100%;
+    min-height: 150px;
+    order: 9999;
+}

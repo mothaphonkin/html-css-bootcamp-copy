@@ -1,0 +1,14 @@
+
+
+.class1 {
+    width: 25%;
+}
+
+.class4 {
+    border: 1px solid #ff1493;
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+}
+
+

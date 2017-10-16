@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    border: 5px solid #ff0000;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.one,
+.two,
+.three,
+.for,
+.five {
+    width: 100%;
+    min-height: 150px;
+}

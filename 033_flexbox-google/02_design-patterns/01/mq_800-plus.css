@@ -1,0 +1,18 @@
+body {
+    width: 800px;
+}
+
+.one {
+    width: 60%;
+}
+
+.two {
+    width: 40%;
+}
+
+.three,
+.for,
+.five {
+    width: 33.33%;
+}
+
