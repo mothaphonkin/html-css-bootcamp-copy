@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paradise {
+    height: 100vh;
+    border: 10px solid #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('tropics.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.empty {
+    height: 100vh;
+}
+
+p {
+    font-size: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 100%;
+    background: #56baf8;
+}
+
+li {
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+li:hover {
+    background: #2a38de;
+}
+
+li a:link,
+li a:visited {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    display: block;
+    padding: 1.3rem 0;
+    text-align: center;
+}
+
+

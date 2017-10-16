@@ -1,0 +1,19 @@
+header {
+    background: #ff6347;
+}
+
+main {
+    background: #87cefa;
+}
+
+aside:first-of-type {
+    background: #ffa500;
+}
+
+aside:first-of-type + aside {
+    background: #ff69b4;
+}
+
+footer {
+    background: #90ee90;
+}

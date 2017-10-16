@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    width: auto;
+}
+
+li a:link,
+li a:visited {
+    padding: 1rem ;
+}
