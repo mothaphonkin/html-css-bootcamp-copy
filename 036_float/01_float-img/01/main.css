@@ -1,0 +1,24 @@
+div,
+img {
+    border: 2px solid #ff0000;
+}
+
+div {
+    float: left;
+    padding: 1rem;
+}
+
+img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+div:first-child {
+    margin-bottom: 1rem;
+}
+
+div:first-child + div img {
+    float: left;
+    margin-right: 1rem;
+}
+
