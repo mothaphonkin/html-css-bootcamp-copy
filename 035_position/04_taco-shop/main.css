@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+html {
+    margin: 15px;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 4px solid #000;
+    position: relative;
+    padding: 1rem;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+
+}
+
+main {
+    margin-left:150px;
+    padding-left: 20px;
+    border-left: 1px dashed #d3d3d3;
+}
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid #ff0000;
+    background: #ff4500;
+}
+
+div:nth-child(2) {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

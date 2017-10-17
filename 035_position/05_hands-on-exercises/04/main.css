@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+aside {
+    width: 150px;
+    height: 400px;
+    border: 1px solid #ff0000;
+    position: absolute;
+}
+
+main {
+    height: 400px;
+    border: 1px solid #000;
+    margin-left: 150px;
+}
+
+
+
+
