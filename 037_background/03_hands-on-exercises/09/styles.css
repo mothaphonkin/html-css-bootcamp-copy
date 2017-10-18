@@ -1,0 +1,9 @@
+div {
+    width: 700px;
+    height: 500px;
+    border: 10px ridge #ffa500;
+    background-image: url('dog.png');
+    background-repeat: no-repeat;
+    /*background-size: auto;*/
+    background-position: 300px 10px;
+}

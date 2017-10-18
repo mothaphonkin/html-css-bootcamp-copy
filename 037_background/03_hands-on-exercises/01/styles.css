@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+    background-color: #ff0000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 14rem;
+    text-align: center;
+}
