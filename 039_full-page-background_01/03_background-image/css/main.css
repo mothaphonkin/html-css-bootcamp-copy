@@ -1,0 +1,34 @@
+* {
+    /*border: 5px solid #ff69b4 !important;*/
+}
+
+#idx-atf,
+.idx-center {
+    display: flex;
+    align-items: center;
+}
+
+#idx-atf {
+    width: 100%;
+    height: 100vh;
+    /*flex-flow: row nowrap;*/
+    justify-content: center;
+    background-color: #5b5b5b;
+    background-image: url('../img/background-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+}
+
+.idx-center {
+    flex-flow: column nowrap;
+}
+
+h1,
+h2,
+h3,
+button {
+    text-transform: uppercase;
+}
