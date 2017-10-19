@@ -1,0 +1,44 @@
+body {
+    background-image: url('../img/fog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+.class1,
+.class2,
+.class3,
+.class4 {
+    text-align: center;
+}
+
+nav li {
+    text-transform: capitalize;
+}
+
+.class1,
+.class2,
+.class3,
+.class4 {
+    height: 250px;
+    margin: 20px;
+}
+
+.class1 {
+    background: #4682b4;
+}
+
+.class2 {
+    background: #556b2f;
+}
+
+.class3 {
+    background: #696969;
+}
+
+.class4 {
+    background: #800080;
+}
