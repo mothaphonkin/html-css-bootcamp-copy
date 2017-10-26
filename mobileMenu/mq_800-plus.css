@@ -1,0 +1,7 @@
+ul {
+  flex-flow: row nowrap;
+}
+
+ul a {
+  justify-content: center;
+}
