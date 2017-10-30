@@ -1,0 +1,96 @@
+html {
+    font-size: 1vw;
+    color: #fff;
+}
+
+#atf {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+nav {
+    padding-left: 40px;
+}
+
+nav,
+.settings {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallIcon {
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+}   
+
+button:hover .smallIcon {
+    fill: #000;
+}
+
+/* BUTTON STYLE */
+
+button {
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: inherit;
+    margin-right: 1rem;
+    padding: 7px 20px;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigIcon {
+    fill: hotpink;
+    width: 350px;
+    height: 350px;
+}
+
+main h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .3);
+    letter-spacing: .5rem;
+}
+
+
+
