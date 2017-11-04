@@ -49,7 +49,7 @@ nav button:first-child {
     fill: #fff;
     width: 25px;
     height: 25px;
-}   
+}
 
 button:hover .smallIcon {
     fill: #000;
