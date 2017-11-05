@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+
+body {
+    padding: 1rem 0 0 1rem;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+    background-color: blue;
+}
+
+div:first-child:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+div:nth-child(2):hover {
+    background-color: yellow;
+    color: blue;
+    transition-property: all;
+    transition-delay: .3s;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+}

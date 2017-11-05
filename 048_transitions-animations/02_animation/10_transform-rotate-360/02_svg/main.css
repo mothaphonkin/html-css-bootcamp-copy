@@ -1,0 +1,67 @@
+html {
+    font-size: 4vw;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.circle {
+    font-size: 8rem;
+    animation-name: rotiranje;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* ANIMATION DEFINITION */
+
+@keyframes rotiranje {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*.icon {*/
+    /*width: 1em; height: 1em;*/
+    /*fill: currentColor;*/
+/*}*/
+
+/*.circle {*/
+    /*font-size: 8rem;*/
+    /*animation-name: spinner;*/
+    /*animation-duration: 2s;*/
+    /*animation-timing-function: linear;*/
+    /*!*animation-delay: 0s;*!*/
+    /*animation-iteration-count: infinite;*/
+    /*!*animation-direction: normal;*!*/
+    /*!*animation-fill-mode: none;*!*/
+    /*!*animation-play-state: running;*!*/
+/*}*/
+
+/*@keyframes spinner {*/
+    /*0% { transform:rotate(0deg); }*/
+    /*100%   { transform:rotate(360deg);}*/
+/*}*/
