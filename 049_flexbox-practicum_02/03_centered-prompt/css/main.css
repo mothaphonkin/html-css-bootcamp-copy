@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 1vw;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4rem;
+    border: 4px solid hotpink;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+}
+
+.class-smile {
+    font-size: 12rem;
+    fill: #BCD2DA;
+    animation-name: rotiranje;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h1,
+h2 {
+    color: #86969C
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 1.2rem 0 2rem 0;
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    background-color: #16A2D7;
+    color: #fff;
+    border-radius: 7px;
+    padding: 20px 50px;
+    font-size: 2rem;
+}
+
+/* ANIMATIONS */
+
+@keyframes rotiranje {
+    0% {}
+    100% {transform: rotate(360deg);}
+}
+

@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+
+aside {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 3rem 0;
+    color: #16A2D7;
+    border-right:1px solid rgba(0, 0, 0, .2);
+}
+
+.up {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+button {
+    width: 100%;
+    padding: 1.5rem 0 1.5rem 3rem;
+    color: currentColor;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+button:hover {
+    background-color: #EEF3F5;
+}

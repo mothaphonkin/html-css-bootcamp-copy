@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 1vw;
+}
+
+.atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 90%;
+    font-size: 7rem;
+    text-align: center;
+    color: rgba(0, 0, 0, .5);
+}
+
+footer {
+    width: 96%;
+    height: 20vh;
+    margin: 0 auto;
+    border-top: 2px solid rgba(0, 0, 0, .5);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: rgba(0, 0, 0, .5);
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    margin-right: .5rem;
+    animation-name: okretanje;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.spin,
+span {
+    font-size: 2.5rem;
+}
+
+.buttons {
+    color: #4EBBE4;
+}
+
+button {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+    padding: 20px 30px;
+}
+
+button:hover {
+    padding: 20px 30px;
+    border-radius: 7px;
+    background-color: #4EBBE4;
+    color: #fff;
+}
+
+button:first-child {
+    margin-right: 1rem;
+}
+
+/* ANIMATIONS */
+
+@keyframes okretanje {
+    0% {}
+    100% {transform: rotate(360deg)}
+}
+
+
+
+

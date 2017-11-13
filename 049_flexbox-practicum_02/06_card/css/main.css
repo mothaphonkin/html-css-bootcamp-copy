@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 1vw;
+    color: #57727C;
+}
+
+#atf {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flask,
+footer {
+    text-align: center;
+}
+
+.flask {
+    width: 25%;
+    height: 60vh;
+    border: 1px solid rgba(87, 114, 124, .3);
+    border-radius: 7px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#up {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: rgb(188, 210, 218);
+}
+
+.flask-icon {
+    font-size: 18rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+#bottom {
+    width: 100%;
+    padding: 1.2rem;
+    border-top: 1px solid rgba(87, 114, 124, .3);
+    background-color: #EEF3F5;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 1vw;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #57727C;
+}
+
+#atf {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbs,
+.trophy,
+.bolt {
+    width: 25%;
+    height: 90vh;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    border: 1px solid rgba(87, 114, 124, .3);
+}
+
+#up-thumbs,
+#up-trophy,
+#up-bolt {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: rgb(188, 210, 218);
+}
+
+.thumbs-icon,
+.trophy-icon,
+.bolt-icon {
+    font-size: 16rem;
+}
+
+.bolt-icon {
+    margin-top: 1.35rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+#bottom-thumbs,
+#bottom-trophy,
+#bottom-bolt {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid rgba(87, 114, 124, .3);
+    border-bottom: 1px solid rgba(87, 114, 124, .3);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #EEF3F5;
+}
+
+span {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
