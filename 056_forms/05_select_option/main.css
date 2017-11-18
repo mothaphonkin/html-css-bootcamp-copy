@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 10px groove hotpink;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2rem;
+}
+
+label {
+    font-size: 2rem;
+}
+
+select {
+    margin: 1rem 0 1.4rem 0;
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+input[type="submit"] {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 7px;
+    transition-property: background-color;
+    transition-duration: .15s;
+    transition-timing-function: linear;
+}
+
+input[type="submit"]:hover {
+    background-color: hotpink;
+}
+
